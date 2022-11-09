@@ -42,12 +42,26 @@ void Shifrovanie() {
 void Rasshifrovanie() {
     string userFileText = File.ReadAllText("res.txt");
     int sdvig = int.Parse(userFileText[0].ToString());
-    string newString="";
-    for (int i = 1; i <userFileText.Length ; i++)
-    {
-        newString+=userFileText[i];
+    string newString = "";
+    for (int i = 1; i < userFileText.Length; i++) {
+        newString += userFileText[i];
     }
-    Console.WriteLine("Сдвиг равен:{0}",sdvig);
-    Console.WriteLine("Зашифрованное слово:{0}",newString);
+    Console.WriteLine("Сдвиг равен:{0}", sdvig);
+    Console.WriteLine("Зашифрованное слово:{0}", newString);
+    string alfavit = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
+    string newAlfavit = "";
+    for (int i = 0; i < alfavit.Length; i++) {
+        int j = i + sdvig;
+        if (j > 32) {
+            j = j - 33;
+        }
+        newAlfavit += alfavit[j];
+    }
+    Console.WriteLine("Алфавит со сдвигом:{0}", newAlfavit);
+    Console.Write("Расшифрованное слово:");
+    for (int i = 0; i < newString.Length; i++) {
+        int nomer = newAlfavit.IndexOf(newString[i]);
+        Console.Write(alfavit[nomer]);
+    }
 }
 
