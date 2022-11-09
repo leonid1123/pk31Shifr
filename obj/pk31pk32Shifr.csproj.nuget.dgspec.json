@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\YandexDisk\\Колледж\\2022-2\\pk31pk32Shifr\\pk31pk32Shifr.csproj": {}
+    "D:\\YandexDisk\\Колледж\\2022-2\\pk31Shifr\\pk31pk32Shifr.csproj": {}
   },
   "projects": {
-    "D:\\YandexDisk\\Колледж\\2022-2\\pk31pk32Shifr\\pk31pk32Shifr.csproj": {
+    "D:\\YandexDisk\\Колледж\\2022-2\\pk31Shifr\\pk31pk32Shifr.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\YandexDisk\\Колледж\\2022-2\\pk31pk32Shifr\\pk31pk32Shifr.csproj",
+        "projectUniqueName": "D:\\YandexDisk\\Колледж\\2022-2\\pk31Shifr\\pk31pk32Shifr.csproj",
         "projectName": "pk31pk32Shifr",
-        "projectPath": "D:\\YandexDisk\\Колледж\\2022-2\\pk31pk32Shifr\\pk31pk32Shifr.csproj",
+        "projectPath": "D:\\YandexDisk\\Колледж\\2022-2\\pk31Shifr\\pk31pk32Shifr.csproj",
         "packagesPath": "C:\\Users\\Leo\\.nuget\\packages\\",
-        "outputPath": "D:\\YandexDisk\\Колледж\\2022-2\\pk31pk32Shifr\\obj\\",
+        "outputPath": "D:\\YandexDisk\\Колледж\\2022-2\\pk31Shifr\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Leo\\AppData\\Roaming\\NuGet\\NuGet.Config",
